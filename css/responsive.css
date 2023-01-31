@@ -1,0 +1,128 @@
+/*@media (max-width:800px) {
+    .blue-box{
+        width: 100px;
+    }
+    .block {
+        width: 100px;
+    }
+} */
+/*navigation-responsive*/
+@media (max-width:780px) {
+    .navigation {
+        display: none;
+    }
+}
+/*
+@media (max-width:500px) {
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3),
+    .block:nth-child(4),
+    .block:nth-child(5),
+    .block:nth-child(6) {
+        background-color: aqua;
+        width: 70px;
+    }
+         
+
+}
+/*@media (min-width:360px) {
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3),
+    .block:nth-child(4),
+    .block:nth-child(5),
+    .block:nth-child(6) {
+        background-color: blueviolet;
+        width: 180px;
+        height: 340px;
+    }
+}
+@media (min-width:720px) {
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3),
+    .block:nth-child(4),
+    .block:nth-child(5),
+    .block:nth-child(6) {
+        background-color: rgb(226, 43, 61);
+        width: 180px;
+        height: 340px;
+    }
+}
+@media (min-width:960px) {
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3),
+    .block:nth-child(4),
+    .block:nth-child(5),
+    .block:nth-child(6) {
+        background-color: rgb(73, 226, 43);
+        width: 180px;
+        height: 340px;
+    }
+}*/
+/*@media (min-width:300px) and (max-width:540px) {
+    .container2-textbox {
+        background: lightcoral;
+    }
+}
+@media (min-width:541px) and (max-width:940px) {
+    .container2-textbox {
+        background: lightgrey;
+    }
+}*/
+/*six-block flex-direction*/
+/*@media (max-width:480px) {
+    .section-after-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block {
+        margin-bottom: 30px;
+    }
+}*/
+/*section-after-header flex-wrap-wrap*/
+@media (min-width:320px) and (max-width:480px) {
+    .section-after-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-block {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width:481px) {
+    .section-after-header {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .left-block {
+        margin-bottom: 30px;
+    }   
+}
+/*six-block flex-wrap-wrap*/
+@media (max-width: 768px) {
+    .six-block {
+        flex-wrap: wrap;
+    }
+    .block {
+        margin-bottom: 60px;
+        width: 45%;
+    }
+}
+@media (max-width: 480px) {
+    .six-block {
+        flex-wrap: wrap;
+    }
+    .block {
+        margin-bottom: 60px;
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
